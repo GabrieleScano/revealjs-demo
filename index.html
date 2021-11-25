@@ -16,9 +16,50 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section data-background-color="aquamarine">
-					Slide 1</section>
-				<section>Slide 2</section>
+				<section data-transition="slide">
+					The train goes on …
+				</section>
+				<section data-transition="slide">
+					and on …
+				</section>
+				<section data-transition="slide-in fade-out">
+					and stops.
+				</section>
+				<section data-transition="fade-in slide-out">
+					(Passengers entering and leaving)
+				</section>
+				<section data-transition="slide">
+					And it starts again.
+				</section>
+				<section data-background-color="rgb(13, 91, 92)">
+					<video data-autoplay src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"></video>
+
+				  </section>
+				  <section data-background-color="rgb(13, 91, 92)">
+					<h2>🐳</h2>	
+				  </section>
+				  <section data-transition="zoom">
+					<h2>This slide will override the presentation transition and zoom!</h2>
+				  </section>
+				  
+				  <section data-transition-speed="fast">
+					<h2>Choose from three transition speeds: default, fast or slow!</h2>
+				  </section>
+				  <section>
+					<a href="#/grand-finale">Go to the last slide</a>
+				</section>
+				<section>
+					<div class="r-stack">
+						<img class="fragment" src="https://placekitten.com/450/300" width="450" height="300">
+						<img class="fragment" src="https://placekitten.com/300/450" width="300" height="450">
+						<img class="fragment" src="https://placekitten.com/400/400" width="400" height="400">
+					  </div>
+				</section>
+				<section id="grand-finale">
+					<h2>The end</h2>
+					<a href="#/0">Back to the first</a>
+				</section>
+				  
 			</div>
 		</div>
 
